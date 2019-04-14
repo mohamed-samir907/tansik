@@ -1,0 +1,232 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+
+/**
+ * Public properties
+ */
+body {
+	font-family: 'Cairo', sans-serif;
+	direction: rtl;
+	text-align: right;
+}
+
+h1, h2, h3, h4, a.navbar-brand {
+	font-family: 'El Messiri', sans-serif;
+}
+
+.row {
+	direction: rtl !important;
+}
+
+.text-primary {
+	color: #1d809f !important;
+}
+
+.btn-primary {
+	background-color: #1d809f;
+	border: 1px solid #1d809f;
+}
+
+.btn-primary:hover {
+	color: #1d809f;
+	background-color: #FFF !important;
+	border: 1px solid #1d809f;
+}
+
+.btn-primary:focus {
+	color: #1d809f;
+	background-color: #FFF !important;
+	border: 1px solid #1d809f;
+	box-shadow: 0 0 0 .2rem #1d809f81!important;
+}
+
+hr {
+	border-color: #1d809f !important;
+}
+
+/*================================================================*/
+
+
+/*=======================
+ * Navbar Edit
+ *=======================*/
+#mainNav {
+	direction: rtl;
+}
+
+.navbar-collapse {
+	-ms-flex-preferred-size: 100%;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 0;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#mainNav a.navbar-brand {
+	font-family: 'El Messiri', sans-serif;
+}
+
+.nav-link {
+	font-family: 'Cairo', sans-serif;
+	color: #FFF;
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+	color: #1d809f !important;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover, 
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
+	color: #1d809f !important;
+}
+
+
+/*=======================
+ * Header Edit
+ *=======================*/
+header.masthead {
+	background-image: url('../img/ddd.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background: linear-gradient(to right, #f1c40f78, #9b59b678, #3498db78), 
+				url('../img/ddd.jpg');
+}
+
+header.masthead .my-auto {
+	z-index: 1;
+}
+header .btn {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.btn-more {
+	font-family: 'Cairo', sans-serif;
+}
+
+/*=======================
+ * Message Edit
+ *=======================*/
+#message {
+	position: relative;
+	background-color: #f1f7fd !important;
+}
+
+#message:before	 {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-image: url('../img/about.jpg'), ;
+}
+
+#message h2 {
+	color: #000 !important;
+}
+
+#message h4 {
+	font-family: 'Cairo', sans-serif;
+    margin: 20px auto;
+    padding: 15px;
+    color: #FFF;
+    display: inline-block;
+    width: 150px;
+    background-color: #1d809f;
+    border-radius: 50px;
+}
+
+#message li,
+#message p {
+	line-height: 2;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+}
+
+/*=======================
+ * About Edit
+ *=======================*/
+#about {
+	background-image: url('../img/about.jpg');
+	background-attachment: fixed;
+}
+
+#about p {
+	color: #FFF;
+}
+
+
+/*=======================
+ * Portfolio Edit
+ *=======================*/
+#portfolio {
+	padding: 8rem 0 !important;
+}
+
+#portfolio .project-category,
+#portfolio .project-name {
+	font-family: 'Cairo', sans-serif;
+}
+
+/*=======================
+ * Footer Edit
+ *=======================*/
+footer {
+	padding: 15px;
+	direction: rtl;
+	text-align: right;
+	color: #FFF
+}
+
+footer .copy {
+	/*font-size: 14px;*/
+	position: relative;
+}
+
+footer .copy span.cs {
+	font-size: 24px;
+	position: absolute;
+	left: -18px;
+	top: -1px;
+}
+
+
+
+@media (max-width: 768px) {
+	#mainNav a.navbar-brand {
+		font-size: 16px !important;
+    	margin-right: 0;
+	}
+
+	.navbar-toggler {
+		padding: 3px;
+	}
+
+	#navbarResponsive {
+		width: 100% !important;
+		float: right;
+	}
+
+	.ml-auto {
+		text-align: right;
+		width: 100% !important;
+	}
+}
+.modal-title {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.modal-header .close {
+	position: absolute;
+}
+.modal-body .btn {
+	font-family: 'Cairo', sans-serif;
+	font-weight: normal;
+}

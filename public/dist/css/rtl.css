@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Cairo;
+    src: url(../../fonts/ar.ttf);
+}
+
+*,
+.content-wrapper h1, p,
+.modal-header h1,
+.modal-header h2,
+.modal-header h3,
+.modal-header h4 {
+    font-family: 'Cairo';
+}
+
+.sidebar-menu li a .fa-angle-left,
+.sidebar-menu li .label, .sidebar-menu li .badge {
+	margin-top: -8px !important;
+}
+
+.sidebar-menu li>a>.pull-right {
+    left: 10px;
+    right: unset;
+}
+
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+    color: #fff;
+    background: #1e282c;
+    border-right-color: #3c8dbc;
+    border-left-color: unset;
+}
+
+.skin-blue .sidebar-menu>li>a {
+    border-right: 3px solid transparent;
+    border-left: none;
+}
+
+.navbar-nav>.user-menu .user-image {
+	float: right;
+	margin-left: 10px;
+	margin-right: unset;
+}
